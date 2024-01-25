@@ -3,7 +3,7 @@ import { ComponentProps } from "react";
 interface InputPrefixProps extends ComponentProps<'div'> {}
 
 export function Prefix(props: InputPrefixProps) {
-  return <div></div>
+  return <div {...props} />
 }
 
 type InputControlProps = ComponentProps<'input'>;
